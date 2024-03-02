@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2003d672-fec4-4f2a-9948-45a89b8f1494" name="Changes" comment="Leetcode -&gt; TwoSum solution">
+    <list default="true" id="2003d672-fec4-4f2a-9948-45a89b8f1494" name="Changes" comment="Leetcode -&gt; HappyNumber solution">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPrograms2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PlayWrightWithJavaAndPrograms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/ArraysFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arrays/ArraysFrequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Leetcode/HappyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Leetcode/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Numbers/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Numbers/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Numbers/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Numbers/PalindromeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/Anagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/Anagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/PalindromeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/PalindromeString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +34,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Leetcode/TwoSum.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Leetcode/TwoSum.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,12 +45,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="PlayWrightWithJavaAndPrograms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="PlayWrightWithJavaAndPrograms" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707937539534</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Leetcode -&gt; HappyNumber solution">
+      <created>1708097422476</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708097422476</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -69,75 +110,106 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Leetcode -&gt; TwoSum solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Leetcode -&gt; TwoSum solution" />
+    <MESSAGE value="Leetcode -&gt; HappyNumber solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Leetcode -&gt; HappyNumber solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Leetcode/HappyNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Leetcode/HappyNumber.java</url>
           <line>8</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Leetcode/HappyNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Leetcode/HappyNumber.java</url>
           <line>27</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Leetcode/HappyNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Leetcode/HappyNumber.java</url>
           <line>9</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Leetcode/HappyNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Leetcode/HappyNumber.java</url>
           <line>10</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Leetcode/HappyNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Leetcode/HappyNumber.java</url>
           <line>12</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Leetcode/HappyNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Leetcode/HappyNumber.java</url>
           <line>11</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Leetcode/HappyNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Leetcode/HappyNumber.java</url>
           <line>13</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Leetcode/HappyNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Leetcode/HappyNumber.java</url>
           <line>14</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Leetcode/HappyNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Leetcode/HappyNumber.java</url>
           <line>16</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Leetcode/HappyNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Leetcode/HappyNumber.java</url>
           <line>17</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Leetcode/HappyNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Leetcode/HappyNumber.java</url>
           <line>19</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Leetcode/HappyNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Leetcode/HappyNumber.java</url>
           <line>20</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Leetcode/HappyNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Leetcode/HappyNumber.java</url>
           <line>22</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/playwright/TestScripts/playWrightFirstTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/playwright/TestScripts/playWrightFirstTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/playwright/TestScripts/playWrightFirstTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/playwright/TestScripts/playWrightFirstTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/playwright/TestScripts/playWrightFirstTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/playwright/TestScripts/playWrightFirstTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
